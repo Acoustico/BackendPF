@@ -1,0 +1,16 @@
+###
+
+GET http://localhost:3000/api/party
+
+###
+
+POST http://localhost:3000/api/party
+Content-Type: application/json
+
+{
+    
+        "title": "juego",
+        "language": "EN",
+        "game": "DNS",
+        "info": "dam"
+}
