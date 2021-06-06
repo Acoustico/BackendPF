@@ -9,20 +9,12 @@ Content-Type: application/json
 
 {
     
-        "title": "juego",
-        "language": "EN",
-        "game": "DNS",
-        "info": "dam"
+        "title": "Banda ayuda de nuevo",
+        "language": "ES",
+        "game": "Monopoly",
+        "info": "Ahora si tengo amigos pero ya no quieren jugar"
 }
 
 ###
 
-DELETE http://localhost:3000/api/party
-Content-Type: application/json
-
-{
-    "title": "juego",
-        "language": "EN",
-        "game": "DNS",
-        "info": "dam"
-}
+DELETE http://localhost:3000/api/party/60b966af26ffc13d98305a50

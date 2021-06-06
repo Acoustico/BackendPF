@@ -16,7 +16,7 @@ partyCtrl.createParty = async (req, res) => {
 }
 
 partyCtrl.deleteParty = async (req, res) => {
-    const partyF = await party.findByIdAndDelete(req.params.id);
+    const partyF = await party.findByIdAndDelete(req.params.title);
     res.send({ message: 'party eliminated', partyF })
 }
 
